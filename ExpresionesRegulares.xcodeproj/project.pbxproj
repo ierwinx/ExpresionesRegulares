@@ -11,6 +11,7 @@
 		AA10143F28F4C7F20048A115 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA10143E28F4C7F20048A115 /* ContentView.swift */; };
 		AA10144128F4C7F50048A115 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA10144028F4C7F50048A115 /* Assets.xcassets */; };
 		AA10144428F4C7F50048A115 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA10144328F4C7F50048A115 /* Preview Assets.xcassets */; };
+		AA10144B28F4CA670048A115 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA10144A28F4CA670048A115 /* ContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		AA10143E28F4C7F20048A115 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AA10144028F4C7F50048A115 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA10144328F4C7F50048A115 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AA10144A28F4CA670048A115 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				AA10143C28F4C7F20048A115 /* ExpresionesRegularesApp.swift */,
 				AA10143E28F4C7F20048A115 /* ContentView.swift */,
+				AA10144A28F4CA670048A115 /* ContentViewModel.swift */,
 				AA10144028F4C7F50048A115 /* Assets.xcassets */,
 				AA10144228F4C7F50048A115 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				AA10143F28F4C7F20048A115 /* ContentView.swift in Sources */,
 				AA10143D28F4C7F20048A115 /* ExpresionesRegularesApp.swift in Sources */,
+				AA10144B28F4CA670048A115 /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

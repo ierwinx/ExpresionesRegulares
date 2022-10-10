@@ -1,22 +1,28 @@
-//
-//  ContentView.swift
-//  ExpresionesRegulares
-//
-//  Created by Erwin Luz León on 10/10/22.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    
+    @StateObject var contentViewModel = ContentViewModel()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        
+        Form {
+            Section("Texto original") {
+                Text(contentViewModel.strOriginal)
+            }
+            
+            Section("Hashtags") {
+                Text(contentViewModel.strHashtags)
+            }
+            
+            Section("Emails") {
+                Text(contentViewModel.strEmails)
+                    .tint(.black)
+            }
         }
-        .padding()
+        
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
